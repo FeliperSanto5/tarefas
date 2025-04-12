@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+:root{
+    --special-color: #fae472
+}
+
+.container{
+    height: 100vh;
+    overflow: hidden;
+    width: 90%;
+    max-width: 400px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-home{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--special-color);
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.btn-back{
+    width: 20%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--special-color);
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.btn-add{
+    margin-top: 10px;
+}
+
+.containerlista{
+    height: 100vh;
+    width: 90%;
+    max-width: 400px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    padding-top: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.txt-title{
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.txt-sub{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#description{
+    width: 100%;
+    height: 100px;
+}
+
+ul{
+    margin-top: 10px;
+    height: 350px;
+    overflow: auto;
+}
+
+ul li{
+    background-color: var(--special-color);
+    margin-bottom: 10px;
+}
+
+ul li .top{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+
+}
+
+.top .title{
+    font-weight: bold;
+}
